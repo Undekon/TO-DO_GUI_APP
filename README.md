@@ -1,17 +1,17 @@
 Simple To-do app built with PyQt5 that allows you to manage your tasks in
 few categories
 
-##Features:
+## Features:
  - Add tasks with a description ad category
  - View all task or filter by category
  - Delete tasks
  - Smooth, clean and simple GUI
    
-##Requirements:
+## Requirements:
   - Python 3.7
   - PyQt5
 
-##Instalation:
+## Instalation:
 1. Clone the reposistory:
 ```git clone https://github.com/Undekon/TO-DO_GUI_APP.git```
 
@@ -21,7 +21,7 @@ few categories
 3. Run the app
 ```python3 main.py```
 
-##Screenshots:
+## Screenshots:
 
 ![main_view](https://github.com/user-attachments/assets/50b66810-010c-4c87-bd3b-9a5b2e11950d)
 ![add_new_view](https://github.com/user-attachments/assets/c85a45e4-9f0b-4216-b16d-87c16f861db6)
