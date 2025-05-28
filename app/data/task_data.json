@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "category": "general",
+        "content": "Buy groceries"
+    },
+    {
+        "id": 2,
+        "category": "general",
+        "content": "Clean the house"
+    },
+    {
+        "id": 3,
+        "category": "general",
+        "content": "Call mom"
+    },
+    {
+        "id": 4,
+        "category": "shopping list",
+        "content": "Milk"
+    },
+    {
+        "id": 5,
+        "category": "shopping list",
+        "content": "Bread"
+    },
+    {
+        "id": 6,
+        "category": "shopping list",
+        "content": "Eggs"
+    },
+    {
+        "id": 7,
+        "category": "school list",
+        "content": "Finish math homework"
+    },
+    {
+        "id": 8,
+        "category": "school list",
+        "content": "Study for biology test"
+    },
+    {
+        "id": 9,
+        "category": "job list",
+        "content": "Reply the client emails"
+    },
+    {
+        "id": 10,
+        "category": "job list",
+        "content": "Prepare project report"
+    }
+]

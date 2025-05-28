@@ -26,7 +26,7 @@ def save_data(tasks):
     with open(DATA_FILE, "w") as file:
         json.dump(tasks, file, indent=4, ensure_ascii=False)
 
-def add_new_task(task_content):
+def add_new_task(task_content, task_category):
     task_list = load_data()
     if (len(task_list) == 0):
         new_id = 1
@@ -34,7 +34,7 @@ def add_new_task(task_content):
         new_id = task_list[-1]["id"] + 1
     new_task = {
         "id" : new_id,
-        "category": "null",
+        "category": task_category,
         'content' : task_content
         }
     
@@ -50,5 +50,8 @@ def delete_task(id):
         if task['id'] == id:
             task_list.pop(index-1)
     save_data(task_list)
+
+    #log
+    print(f"Deleting task with id: {id}")
 
     
