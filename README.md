@@ -19,7 +19,8 @@ few categories
 ```pip install -r requirements.txt```
 
 3. Run the app
-```cd app/```
+```cd app```
+
 ```python3 main.py```
 
 ## Screenshots:
